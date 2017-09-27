@@ -1,6 +1,5 @@
 package com.theironyard;
 
-import java.util.PrimitiveIterator;
 
 public abstract class Soldier {
 
@@ -22,25 +21,16 @@ public abstract class Soldier {
         return name;
     }
 
-    public void setName(String name) {
-        this.name = name;
-    }
 
     public String getRank() {
         return rank;
     }
 
-    public void setRank(String rank) {
-        this.rank = rank;
-    }
 
     public int getSerialNumber() {
         return serialNumber;
     }
 
-    public void setSerialNumber(int serialNumber) {
-        this.serialNumber = serialNumber;
-    }
 
 
     //====================================================//
